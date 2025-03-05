@@ -1,0 +1,17 @@
+    SORT 1                      SORT 2                      SORT 3
+random5000 -> 0.066s     | random5000 -> 0.059s      | random5000 -> 0.044s
+random10000 -> 0.206s    | random10000 -> 0.065s     | random10000 -> 0.123s
+random50000 -> 6.139s    | random50000 -> 1.015s     | random50000 -> 2.809s
+                         |                           |
+reversed5000 -> 0.72s    | reversed5000 -> 0.027s    | reversed5000 -> 0.058s
+reversed10000 -> 0.272s  | reversed10000 -> 0.071s   | reversed10000 -> 0.217s
+reversed50000 -> 5.428s  | reversed50000 -> 0.972s   | reversed50000 -> 2.976s
+                         |                           |
+sorted5000 -> 0.038s     | sorted5000 -> 0.029s      | sorted5000 -> 0.088s
+sorted10000 -> 0.059s    | sorted10000 -> 0.066s     | sorted10000 -> 0.139s
+sorted50000 -> 0.972s    | sorted50000 -> 1.049s     | sorted50000 -> 2.823s
+
+
+Selection sort - O(n²)      - 3
+Bubble sort    - O(n²)      - 1
+Merge sort     - O(n log n) - 2

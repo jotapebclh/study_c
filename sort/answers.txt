@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: In the tests of sorting already sorted data, sort1 obtained the best time among the others. Leading to believe that it is Bubble sort.
+
+sort2 uses: Merge sort
+
+How do you know?: The time complexity of merge sort, being O(n log n), has an advantage when dealing with larger amounts of data. We see this when we run the sort2 program and it handles the largest files very well.
+
+sort3 uses: Selection sort
+
+How do you know?: The difference between Bubble sort and Selection sort, as both deal with o(n²) complexity, was when verifying that when trying to sort an already sorted list, bubble sort performs better.
